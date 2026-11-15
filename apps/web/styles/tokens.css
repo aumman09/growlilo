@@ -1,0 +1,49 @@
+/* Growlilo design tokens — PRD §4.1. Contrast checked: forest-900 / ink-900 on cream-50 ≥ 9:1, muted on cream-50 ≥ 4.5:1 */
+:root {
+  --forest-900: #234b37;
+  --forest-800: #2b5d44;
+  --forest-700: #357553;
+  --leaf-500: #7cb66b;
+  --leaf-300: #b9dca6;
+  --leaf-100: #e3f1d9;
+  --cream-50: #fff9ee;
+  --cream-100: #f6f0e3;
+  --cream-200: #ece3d0;
+  --peach-400: #f7a363;
+  --peach-300: #fbc395;
+  --peach-100: #fde8d6;
+  --peach-700: #a8521a; /* text-on-cream accessible orange */
+  --blue-300: #9ed4f2;
+  --blue-100: #e2f2fb;
+  --blue-700: #2d6f93;
+  --ink-900: #26382f;
+  --muted: #5f6e64;
+  --error: #b44337;
+  --success: #286e49;
+  --white: #ffffff;
+
+  /* toy colours (lesson content) */
+  --toy-red: #e2483d;
+  --toy-blue: #2f6fd6;
+  --toy-yellow: #f5c518;
+  --toy-green: #3a9b4c;
+  --toy-orange: #f28a1f;
+  --toy-purple: #8a4fc4;
+
+  --font-display: "Nunito", "Noto Sans Thai", system-ui, sans-serif;
+  --font-body: "Noto Sans Thai", "Nunito", system-ui, sans-serif;
+
+  --s-1: 8px; --s-2: 16px; --s-3: 24px; --s-4: 32px; --s-5: 40px; --s-6: 48px; --s-8: 64px; --s-10: 80px; --s-12: 96px; --s-16: 128px;
+  --r-sm: 14px; --r-md: 20px; --r-lg: 28px; --r-xl: 40px; --r-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(35, 75, 55, 0.06), 0 2px 8px rgba(35, 75, 55, 0.05);
+  --shadow-md: 0 2px 4px rgba(35, 75, 55, 0.05), 0 12px 32px -8px rgba(35, 75, 55, 0.14);
+  --shadow-lg: 0 4px 8px rgba(35, 75, 55, 0.04), 0 32px 64px -16px rgba(35, 75, 55, 0.22);
+
+  --ease: cubic-bezier(0.22, 0.8, 0.26, 1);
+  --t-fast: 160ms; --t-med: 260ms; --t-slow: 350ms;
+
+  --container: 1200px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+}

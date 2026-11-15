@@ -1,0 +1,33 @@
+[
+  {
+    "id": "en-colors-match-001",
+    "version": 1,
+    "status": "published",
+    "subject": "english",
+    "age_bands": ["4-5", "6-8"],
+    "engine": "match",
+    "title": { "th": "จับคู่สีสนุก", "en": "Match Colors" },
+    "intro": {
+      "th": "ฟังคำภาษาอังกฤษ แล้วแตะสิ่งที่มีสีนั้นนะ",
+      "en": "Listen, then tap the right color!"
+    },
+    "parent_tip": {
+      "th": "พูดคำภาษาอังกฤษตามไปพร้อมลูก ไม่ต้องกลัวผิด — ปุ่มลำโพงพูดซ้ำได้เสมอ"
+    },
+    "duration_screen_seconds": 240,
+    "skill_ids": ["en.colors.basic", "en.listening.word", "cognition.visual_match"],
+    "items": [
+      { "id": "red", "word": "red", "th": "สีแดง", "say_th": "เร็ด", "object": "balloon", "object_th": "ลูกโป่ง", "object_en": "balloon", "correct": "red", "choices": ["red", "blue", "yellow"] },
+      { "id": "blue", "word": "blue", "th": "สีน้ำเงิน / สีฟ้า", "say_th": "บลู", "object": "fish", "object_th": "ปลา", "object_en": "fish", "correct": "blue", "choices": ["green", "blue", "red"] },
+      { "id": "yellow", "word": "yellow", "th": "สีเหลือง", "say_th": "เยลโล่ว", "object": "star", "object_th": "ดาว", "object_en": "star", "correct": "yellow", "choices": ["purple", "blue", "yellow"] },
+      { "id": "green", "word": "green", "th": "สีเขียว", "say_th": "กรีน", "object": "car", "object_th": "รถ", "object_en": "car", "correct": "green", "choices": ["green", "orange", "red"] },
+      { "id": "orange", "word": "orange", "th": "สีส้ม", "say_th": "ออเรนจ์", "object": "ball", "object_th": "ลูกบอล", "object_en": "ball", "correct": "orange", "choices": ["blue", "green", "orange"] },
+      { "id": "purple", "word": "purple", "th": "สีม่วง", "say_th": "เพอร์เพิล", "object": "flower", "object_th": "ดอกไม้", "object_en": "flower", "correct": "purple", "choices": ["yellow", "purple", "green"] }
+    ],
+    "linked_mission_id": "mission-find-red-001",
+    "access_tier": "free",
+    "reviewed_by": null,
+    "safety_reviewed": true,
+    "review_note": "Alpha seed content. English pronunciation & Thai helper text need qualified educator review before MVP release (PRD §10)."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "growlilo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "pnpm --filter @growlilo/web dev",
+    "build": "pnpm --filter @growlilo/web build",
+    "start": "pnpm --filter @growlilo/web start",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "e2e": "pnpm --filter @growlilo/web e2e"
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "mission-find-red-001",
+    "version": 1,
+    "status": "published",
+    "subject": "english",
+    "age_bands": ["4-5", "6-8"],
+    "places": ["indoor", "outdoor"],
+    "duration_minutes": 7,
+    "max_prep_minutes": 0,
+    "materials": [],
+    "skill_ids": ["en.colors.basic", "en.speaking.word"],
+    "title": { "th": "นักสำรวจสีแดง", "en": "Find something red" },
+    "child_instruction": { "th": "หาของสีแดง 3 อย่างกับพ่อแม่ แล้วพูดว่า “red!” ด้วยกัน", "en": "Find 3 red things. Say “red!”" },
+    "adult_steps": [
+      "ชวนลูกเดินดูรอบห้อง/รอบบ้าน แล้วถามว่า “Can you find something red?”",
+      "เมื่อลูกเจอ ให้ชี้แล้วพูดพร้อมกันว่า “Red! It’s red.”",
+      "ทำให้ครบ 3 อย่าง ถ้าลูกเลือกผิดสี ให้บอกชื่อสีนั้นเป็นภาษาอังกฤษแบบสบาย ๆ แล้วหาต่อ",
+      "ปิดท้ายด้วยการถามว่า “วันนี้สนุกกับอะไร?”"
+    ],
+    "phrases": [
+      { "en": "Can you find something red?", "th": "หาของสีแดงเจอไหม?", "say_th": "แคน ยู ไฟนด์ ซัมติง เร็ด" },
+      { "en": "Red! It's red.", "th": "สีแดง! มันเป็นสีแดง", "say_th": "เร็ด! อิทส์ เร็ด" },
+      { "en": "Great job!", "th": "เก่งมาก!", "say_th": "เกรท จ็อบ" }
+    ],
+    "safety_notes": [
+      "เลือกเฉพาะของที่จับได้ปลอดภัย — หลีกเลี่ยงของมีคม ของร้อน ปลั๊กไฟ และของชิ้นเล็กที่เข้าปากได้",
+      "ถ้าออกนอกบ้าน ผู้ใหญ่ต้องอยู่ด้วยตลอด"
+    ],
+    "variations": ["เปลี่ยนเป็นสีน้ำเงิน (blue) หรือสีเหลือง (yellow)", "ลูกวัย 6–8: ให้พูดเป็นประโยค “The cup is red.”"],
+    "completion_question": "วันนี้สนุกกับอะไร?",
+    "access_tier": "free"
+  },
+  {
+    "id": "mission-color-walk-001",
+    "version": 1, "status": "published", "subject": "english", "age_bands": ["4-5", "6-8"], "places": ["outdoor"],
+    "duration_minutes": 10, "max_prep_minutes": 0, "materials": [], "skill_ids": ["en.colors.basic"],
+    "title": { "th": "เดินเล่นตามล่าสี", "en": "Color walk" },
+    "child_instruction": { "th": "เดินเล่นกับพ่อแม่ หาสีเขียว เหลือง แดง", "en": "Find green, yellow, red outside" },
+    "adult_steps": ["เดินในบริเวณที่ปลอดภัย", "ผลัดกันชี้สิ่งของแล้วบอกสีเป็นภาษาอังกฤษ", "นับว่าเจอกี่สี"],
+    "phrases": [{ "en": "I see something green!", "th": "ฉันเห็นของสีเขียว!", "say_th": "ไอ ซี ซัมติง กรีน" }],
+    "safety_notes": ["ผู้ใหญ่อยู่ด้วยตลอด หลีกเลี่ยงถนนและแหล่งน้ำ", "ไม่เก็บหรือชิมพืชที่ไม่รู้จัก"],
+    "variations": ["ถ่ายรูปไม่จำเป็น — แค่ชี้และพูดก็พอ"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  },
+  {
+    "id": "mission-count-spoons-001",
+    "version": 1, "status": "published", "subject": "math", "age_bands": ["4-5", "6-8"], "places": ["indoor"],
+    "duration_minutes": 7, "max_prep_minutes": 1, "materials": ["ช้อน", "แก้ว"], "skill_ids": ["math.counting.1_10"],
+    "title": { "th": "นับช้อนจัดโต๊ะ", "en": "Count spoons" },
+    "child_instruction": { "th": "ช่วยจัดโต๊ะ นับช้อนและแก้วให้ครบทุกคน", "en": "Count spoons and cups" },
+    "adult_steps": ["ถามลูกว่ามื้อนี้มีกี่คน", "ให้ลูกนับช้อนให้เท่าจำนวนคน", "วัย 6–8: ถ้ามีแขกเพิ่ม 1 คน ต้องเพิ่มกี่ช้อน?"],
+    "phrases": [], "safety_notes": ["ใช้ช้อน/แก้วพลาสติกหรือไม่แตกง่ายสำหรับเด็กเล็ก"],
+    "variations": ["นับจาน", "จับคู่ช้อนกับแก้ว"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  },
+  {
+    "id": "mission-count-steps-001",
+    "version": 1, "status": "published", "subject": "math", "age_bands": ["4-5", "6-8"], "places": ["outdoor"],
+    "duration_minutes": 8, "max_prep_minutes": 0, "materials": [], "skill_ids": ["math.counting.1_10"],
+    "title": { "th": "นับก้าวกระโดด", "en": "Count my steps" },
+    "child_instruction": { "th": "กระโดด 1 ถึง 10 ก้าวพร้อมนับเสียงดัง", "en": "Jump and count to 10" },
+    "adult_steps": ["เลือกพื้นที่เรียบ ปลอดภัย", "นับพร้อมกันทีละก้าว", "วัย 6–8: นับถอยหลังจาก 10"],
+    "phrases": [], "safety_notes": ["พื้นไม่ลื่น ไม่ใกล้ถนนหรือบันได"],
+    "variations": ["นับเป็นภาษาอังกฤษ one, two, three"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  },
+  {
+    "id": "mission-ko-kai-001",
+    "version": 1, "status": "published", "subject": "thai", "age_bands": ["4-5", "6-8"], "places": ["indoor"],
+    "duration_minutes": 7, "max_prep_minutes": 2, "materials": ["กระดาษ", "ดินสอสี"], "skill_ids": ["th.consonant.ko"],
+    "title": { "th": "ตามหาเสียง ก", "en": "Find the ก sound" },
+    "child_instruction": { "th": "หาของในบ้านที่ขึ้นต้นด้วยเสียง “ก”", "en": "Find things that start with ก" },
+    "adult_steps": ["ออกเสียง “ก” ช้า ๆ ให้ลูกฟัง", "ช่วยกันหา เช่น กระเป๋า แก้ว กล่อง", "วัย 6–8: ให้ลูกเขียนตัว ก บนกระดาษ"],
+    "phrases": [], "safety_notes": ["หลีกเลี่ยงกรรไกรและของมีคม"],
+    "variations": ["เปลี่ยนเป็นเสียง ข หรือ ค"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  },
+  {
+    "id": "mission-sign-hunt-001",
+    "version": 1, "status": "published", "subject": "thai", "age_bands": ["6-8"], "places": ["outdoor"],
+    "duration_minutes": 10, "max_prep_minutes": 0, "materials": [], "skill_ids": ["th.reading.letters"],
+    "title": { "th": "นักสืบป้ายตัวอักษร", "en": "Sign detective" },
+    "child_instruction": { "th": "หาตัวอักษรที่รู้จักบนป้ายรอบตัว", "en": "Spot letters on signs" },
+    "adult_steps": ["เดินในพื้นที่ปลอดภัย", "ให้ลูกชี้ตัวอักษรที่รู้จัก", "ช่วยอ่านคำทั้งคำให้ฟัง"],
+    "phrases": [], "safety_notes": ["ผู้ใหญ่อยู่ด้วยตลอด ระวังรถ"],
+    "variations": ["หาตัวเลขบนป้ายแทน"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  },
+  {
+    "id": "mission-feelings-001",
+    "version": 1, "status": "published", "subject": "life", "age_bands": ["2-3", "4-5", "6-8"], "places": ["indoor", "outdoor"],
+    "duration_minutes": 5, "max_prep_minutes": 0, "materials": [], "skill_ids": ["life.feelings.naming"],
+    "title": { "th": "หน้าบอกความรู้สึก", "en": "Feeling faces" },
+    "child_instruction": { "th": "ทำหน้าบอกความรู้สึกวันนี้ แล้วเล่าเรื่องดี ๆ 1 เรื่อง", "en": "Make a feeling face" },
+    "adult_steps": ["ผลัดกันทำหน้า ดีใจ เศร้า ตกใจ", "ให้ลูกเลือกหน้าที่ตรงกับวันนี้", "แชร์เรื่องดี ๆ คนละ 1 เรื่อง"],
+    "phrases": [{ "en": "I feel happy.", "th": "ฉันรู้สึกมีความสุข", "say_th": "ไอ ฟีล แฮปปี้" }],
+    "safety_notes": ["รับฟังโดยไม่ตัดสินความรู้สึกของลูก"],
+    "variations": ["วาดหน้าบนกระดาษ"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  },
+  {
+    "id": "mission-sort-toys-001",
+    "version": 1, "status": "published", "subject": "life", "age_bands": ["2-3", "4-5"], "places": ["indoor"],
+    "duration_minutes": 8, "max_prep_minutes": 0, "materials": ["ของเล่นชิ้นใหญ่"], "skill_ids": ["cognition.sorting"],
+    "title": { "th": "แยกของเล่นตามสี", "en": "Sort toys by color" },
+    "child_instruction": { "th": "ช่วยกันเก็บของเล่น แยกตามสี", "en": "Tidy toys by color" },
+    "adult_steps": ["วางตะกร้า/กล่อง 2–3 ใบ", "ให้ลูกเลือกสีของแต่ละกล่อง", "เก็บของเล่นลงกล่องที่สีตรงกัน"],
+    "phrases": [], "safety_notes": ["ใช้ของเล่นชิ้นใหญ่เท่านั้นสำหรับเด็กเล็ก (ไม่ใช่ชิ้นเล็กที่กลืนได้)"],
+    "variations": ["แยกตามขนาด"], "completion_question": "วันนี้สนุกกับอะไร?", "access_tier": "free"
+  }
+]

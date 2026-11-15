@@ -1,0 +1,8 @@
+[
+  { "id": "sprout", "label": "ต้นกล้า", "color": "#7CB66B" },
+  { "id": "sun", "label": "ดวงอาทิตย์", "color": "#F7A363" },
+  { "id": "cloud", "label": "ก้อนเมฆ", "color": "#9ED4F2" },
+  { "id": "bloom", "label": "ดอกไม้", "color": "#E98BA4" },
+  { "id": "pebble", "label": "ก้อนหิน", "color": "#B9A58A" },
+  { "id": "moon", "label": "พระจันทร์", "color": "#B7A6E0" }
+]
