@@ -37,9 +37,9 @@ test.describe("marketing landing", () => {
 
   test("pricing is transparent and checkout disabled; FAQ keyboard operable", async ({ page }) => {
     await page.goto("/#pricing");
-    await expect(page.getByTestId("plan-family_plus")).toContainText("฿99");
+    await expect(page.getByTestId("plan-family_plus")).toContainText("฿59");
     await page.getByRole("radio", { name: "รายปี" }).click();
-    await expect(page.getByTestId("plan-family_plus")).toContainText("฿899");
+    await expect(page.getByTestId("plan-family_plus")).toContainText("฿590");
     await expect(page.getByRole("button", { name: /ยังไม่เปิดชำระเงิน/ })).toBeDisabled();
     const q = page.getByRole("button", { name: "ลูกจะใช้จอนานแค่ไหน?" });
     await q.focus();

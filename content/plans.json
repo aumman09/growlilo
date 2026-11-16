@@ -14,7 +14,7 @@
     {
       "sku": "family_plus",
       "name": { "th": "Family Plus", "en": "Family Plus" },
-      "price_minor_units": { "month": 9900, "year": 89900 },
+      "price_minor_units": { "month": 5900, "year": 59000 },
       "tagline": { "th": "สำหรับครอบครัวที่อยากเล่นด้วยกันทุกสัปดาห์" },
       "features": ["คลังบทเรียนครบตามหลักสูตร", "แผนกิจกรรมประจำวันตามอายุและเวลา", "สรุปการเติบโตรายสัปดาห์", "การ์ดกิจกรรมพิมพ์ได้ (PDF)", "หลายโปรไฟล์ลูก"],
       "available": false
