@@ -14,6 +14,7 @@ Thai-first learning companion for families with children aged 4–8:
 - Screen cap: finishes the current item, then ends gracefully; never auto-launches another game
 - Breathing break → offscreen mission card → **parent gate** → adult mission guide (steps, phrases with audio, safety) → confirm → dashboard
 - Parent dashboard: today’s plan, 7-day summary, skills (non-diagnostic labels), “try next” with reasons, history, time settings, export/delete, billing (planned, disabled)
+- **Family Library (ages 1–3):** printable A4 worksheets (8 templates) and bilingual TH/EN stories with narration, listen-only dark mode, sleep timer; free vs Plus; content guide in `docs/CONTENT_GUIDE.md`
 - Installable PWA: manifest, icons (incl. maskable), versioned service worker, offline lesson play + offline fallback page
 
 ## Requirements
@@ -32,10 +33,10 @@ Open on a phone on the same Wi-Fi: `http://<your-PC-IP>:3000`. Note: PWA install
 
 ## Quality gates
 ```bash
-pnpm lint && pnpm typecheck && pnpm test     # ESLint, tsc, Vitest (105 unit tests)
+pnpm lint && pnpm typecheck && pnpm test     # ESLint, tsc, Vitest (unit tests)
 pnpm build
 cd apps/web && npx playwright install chromium   # first time only
-pnpm e2e                                          # 14 Playwright scenarios × 2 viewports (mobile 360, desktop 1440)
+pnpm e2e                                          # 21 Playwright scenarios × 2 viewports (mobile 360, desktop 1440)
 ```
 E2E screenshots land in `apps/web/test-results/shots/`; a curated set is committed in `docs/screenshots/`.
 

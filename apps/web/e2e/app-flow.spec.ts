@@ -178,6 +178,7 @@ test.describe("Phase 1 vertical slice: Landing → onboarding → English lesson
     await page.goto("/app/home/");
     await page.evaluate(async () => { await navigator.serviceWorker.ready; });
     await page.reload(); // controlled by SW now
+    await page.waitForFunction(() => !!navigator.serviceWorker.controller, null, { timeout: 30_000 });
     await context.setOffline(true);
     await page.goto("/app/lesson/en-colors-match-001/");
     await expect(page.getByTestId("offline-chip")).toBeVisible();

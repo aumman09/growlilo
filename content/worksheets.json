@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "ws-dots-apple",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "จุ่มนิ้วแต้มแอปเปิล",
+   "en": "Dab the Apple"
+  },
+  "instruction": {
+   "th": "จุ่มนิ้วแล้วแต้มลงในวงกลมให้ครบ",
+   "en": "Dip a finger and dab each circle."
+  },
+  "materials": [
+   "สีนิ้วสีแดง",
+   "ผ้าเช็ดมือ"
+  ],
+  "adult_tips": [
+   "จับมือลูกแต้มจุดแรกด้วยกัน แล้วปล่อยให้ลูกลองเอง",
+   "นับดัง ๆ ทุกครั้งที่แต้ม: หนึ่ง สอง สาม"
+  ],
+  "words": [
+   {
+    "th": "แอปเปิล",
+    "en": "apple"
+   },
+   {
+    "th": "สีแดง",
+    "en": "red"
+   },
+   {
+    "th": "แตะ",
+    "en": "tap"
+   }
+  ],
+  "safety": [
+   "ใช้สีนิ้วสำหรับเด็ก (non-toxic) และล้างมือหลังเล่น — ไม่ใช้สติกเกอร์ชิ้นเล็กกับเด็กต่ำกว่า 3 ปี"
+  ],
+  "template": {
+   "kind": "dots",
+   "picture": "apple",
+   "count": 6
+  }
+ },
+ {
+  "id": "ws-color-ball",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "colors",
+  "minutes": 5,
+  "title": {
+   "th": "ระบายสีลูกบอล",
+   "en": "Color the Ball"
+  },
+  "instruction": {
+   "th": "ระบายสีลูกบอลลูกใหญ่ด้วยสีที่ชอบ",
+   "en": "Color the big ball any color you like."
+  },
+  "materials": [
+   "สีเทียนแท่งใหญ่"
+  ],
+  "adult_tips": [
+   "ไม่ต้องระบายในเส้น — วัยนี้แค่ขีดเขียนก็เก่งแล้ว",
+   "ถามว่า “ใช้สีอะไรเอ่ย?” แล้วบอกชื่อสีเป็นภาษาอังกฤษ"
+  ],
+  "words": [
+   {
+    "th": "ลูกบอล",
+    "en": "ball"
+   },
+   {
+    "th": "กลม",
+    "en": "round"
+   },
+   {
+    "th": "ระบาย",
+    "en": "color"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "ball"
+  }
+ },
+ {
+  "id": "ws-trace-car-home",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "พารถกลับบ้าน",
+   "en": "Drive the Car Home"
+  },
+  "instruction": {
+   "th": "ลากเส้นตามรอยประ พารถไปถึงบ้าน",
+   "en": "Trace the dotted line to take the car home."
+  },
+  "materials": [
+   "สีเทียนแท่งใหญ่"
+  ],
+  "adult_tips": [
+   "ทำเสียง “บรื้น ๆ” ตอนลากเส้น ให้เป็นเกม",
+   "ใช้นิ้วลากตามก่อน แล้วค่อยใช้สี"
+  ],
+  "words": [
+   {
+    "th": "รถ",
+    "en": "car"
+   },
+   {
+    "th": "บ้าน",
+    "en": "house"
+   },
+   {
+    "th": "ไป",
+    "en": "go"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "trace",
+   "pattern": "straight",
+   "from": "car",
+   "to": "house",
+   "rows": 3
+  }
+ },
+ {
+  "id": "ws-match-shadow-3",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "matching",
+  "minutes": 7,
+  "title": {
+   "th": "จับคู่เงาแสนสนุก",
+   "en": "Match the Shadows"
+  },
+  "instruction": {
+   "th": "โยงเส้นจากภาพไปหาเงาที่เหมือนกัน",
+   "en": "Draw a line from each picture to its shadow."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ชี้ภาพทีละอัน ถามว่า “เงาของปลาอยู่ไหนนะ?”",
+   "ถ้าลูกยังโยงเส้นไม่ได้ ให้ชี้ตอบก็ได้"
+  ],
+  "words": [
+   {
+    "th": "ปลา",
+    "en": "fish"
+   },
+   {
+    "th": "ดาว",
+    "en": "star"
+   },
+   {
+    "th": "แอปเปิล",
+    "en": "apple"
+   },
+   {
+    "th": "เงา",
+    "en": "shadow"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "match",
+   "items": [
+    "fish",
+    "star",
+    "apple"
+   ]
+  }
+ },
+ {
+  "id": "ws-size-ball",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "concepts",
+  "minutes": 4,
+  "title": {
+   "th": "ใหญ่หรือเล็ก",
+   "en": "Big or Small?"
+  },
+  "instruction": {
+   "th": "วงกลมลูกบอลลูกที่ใหญ่",
+   "en": "Circle the big ball."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "กางแขนกว้าง ๆ ตอนพูดว่า “ใหญ่” และทำมือเล็ก ๆ ตอนพูดว่า “เล็ก”",
+   "หาของใหญ่-เล็กในบ้านต่อ"
+  ],
+  "words": [
+   {
+    "th": "ใหญ่",
+    "en": "big"
+   },
+   {
+    "th": "เล็ก",
+    "en": "small"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "size",
+   "picture": "ball"
+  }
+ },
+ {
+  "id": "ws-count-duck",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "counting",
+  "minutes": 5,
+  "title": {
+   "th": "นับเป็ดน้อย",
+   "en": "Count the Ducks"
+  },
+  "instruction": {
+   "th": "นับเป็ดในแต่ละแถว แล้ววงกลมจำนวนจุดที่เท่ากัน",
+   "en": "Count the ducks and circle the matching dots."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ชี้เป็ดทีละตัวพร้อมนับ",
+   "ทำเสียง “ก๊าบ ๆ” ทุกครั้งที่นับ"
+  ],
+  "words": [
+   {
+    "th": "เป็ด",
+    "en": "duck"
+   },
+   {
+    "th": "หนึ่ง",
+    "en": "one"
+   },
+   {
+    "th": "สอง",
+    "en": "two"
+   },
+   {
+    "th": "สาม",
+    "en": "three"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "count",
+   "picture": "duck",
+   "max": 3
+  }
+ },
+ {
+  "id": "ws-path-fish-star",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "ปลาน้อยว่ายหาดาว",
+   "en": "Swim to the Star"
+  },
+  "instruction": {
+   "th": "ลากเส้นในทางน้ำ พาปลาไปหาดาวทะเล",
+   "en": "Draw a line along the path to the star."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ไม่เป็นไรถ้าเส้นออกนอกทาง ชมความพยายาม",
+   "ทำท่าว่ายน้ำด้วยกันก่อนเริ่ม"
+  ],
+  "words": [
+   {
+    "th": "ปลา",
+    "en": "fish"
+   },
+   {
+    "th": "ว่ายน้ำ",
+    "en": "swim"
+   },
+   {
+    "th": "ดาว",
+    "en": "star"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "path",
+   "from": "fish",
+   "to": "star"
+  }
+ },
+ {
+  "id": "ws-color-sun",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "skill": "colors",
+  "minutes": 5,
+  "title": {
+   "th": "ดวงอาทิตย์ยิ้มแป้น",
+   "en": "Sunny Sun"
+  },
+  "instruction": {
+   "th": "ระบายสีดวงอาทิตย์ให้สดใส",
+   "en": "Color the happy sun."
+  },
+  "materials": [
+   "สีเทียนสีเหลือง/ส้ม"
+  ],
+  "adult_tips": [
+   "ชวนลูกมองออกไปนอกหน้าต่าง “วันนี้มีแดดไหม?”"
+  ],
+  "words": [
+   {
+    "th": "ดวงอาทิตย์",
+    "en": "sun"
+   },
+   {
+    "th": "สีเหลือง",
+    "en": "yellow"
+   },
+   {
+    "th": "ร้อน",
+    "en": "hot"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "sun"
+  }
+ },
+ {
+  "id": "ws-dots-heart",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-15",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "แต้มหัวใจ",
+   "en": "Dab the Heart"
+  },
+  "instruction": {
+   "th": "จุ่มนิ้วแต้มวงกลมบนหัวใจ",
+   "en": "Dab every circle on the heart."
+  },
+  "materials": [
+   "สีนิ้ว"
+  ],
+  "adult_tips": [
+   "แต้มแล้วพูดว่า “รักนะ” ทุกจุด"
+  ],
+  "words": [
+   {
+    "th": "หัวใจ",
+    "en": "heart"
+   },
+   {
+    "th": "รัก",
+    "en": "love"
+   }
+  ],
+  "safety": [
+   "ใช้สีนิ้วสำหรับเด็ก (non-toxic) และล้างมือหลังเล่น — ไม่ใช้สติกเกอร์ชิ้นเล็กกับเด็กต่ำกว่า 3 ปี"
+  ],
+  "template": {
+   "kind": "dots",
+   "picture": "heart",
+   "count": 8
+  }
+ },
+ {
+  "id": "ws-dots-flower",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-15",
+  "age_bands": [
+   "1-2"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 4,
+  "title": {
+   "th": "แต้มดอกไม้",
+   "en": "Dab the Flower"
+  },
+  "instruction": {
+   "th": "แต้มสีบนกลีบดอกไม้",
+   "en": "Dab color on the flower."
+  },
+  "materials": [
+   "สีนิ้ว 2 สี"
+  ],
+  "adult_tips": [
+   "ให้ลูกเลือกสีเอง"
+  ],
+  "words": [
+   {
+    "th": "ดอกไม้",
+    "en": "flower"
+   },
+   {
+    "th": "สวย",
+    "en": "pretty"
+   }
+  ],
+  "safety": [
+   "ใช้สีนิ้วสำหรับเด็ก (non-toxic) และล้างมือหลังเล่น — ไม่ใช้สติกเกอร์ชิ้นเล็กกับเด็กต่ำกว่า 3 ปี"
+  ],
+  "template": {
+   "kind": "dots",
+   "picture": "flower",
+   "count": 6
+  }
+ },
+ {
+  "id": "ws-color-duck",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-20",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "colors",
+  "minutes": 5,
+  "title": {
+   "th": "ระบายสีเป็ดน้อย",
+   "en": "Color the Duck"
+  },
+  "instruction": {
+   "th": "ระบายสีเป็ดน้อย",
+   "en": "Color the little duck."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ร้องเพลงเป็ดด้วยกันระหว่างระบาย"
+  ],
+  "words": [
+   {
+    "th": "เป็ด",
+    "en": "duck"
+   },
+   {
+    "th": "สีเหลือง",
+    "en": "yellow"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "duck"
+  }
+ },
+ {
+  "id": "ws-color-house",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-25",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "colors",
+  "minutes": 6,
+  "title": {
+   "th": "บ้านของเรา",
+   "en": "Our House"
+  },
+  "instruction": {
+   "th": "ระบายสีบ้าน",
+   "en": "Color the house."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ถามว่า “ใครอยู่ในบ้านบ้าง?”"
+  ],
+  "words": [
+   {
+    "th": "บ้าน",
+    "en": "house"
+   },
+   {
+    "th": "ประตู",
+    "en": "door"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "house"
+  }
+ },
+ {
+  "id": "ws-color-cat",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "colors",
+  "minutes": 5,
+  "title": {
+   "th": "แมวเหมียว",
+   "en": "Kitty Cat"
+  },
+  "instruction": {
+   "th": "ระบายสีแมวเหมียว",
+   "en": "Color the cat."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ทำเสียง “เมี้ยว” ด้วยกัน"
+  ],
+  "words": [
+   {
+    "th": "แมว",
+    "en": "cat"
+   },
+   {
+    "th": "เมี้ยว",
+    "en": "meow"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "cat"
+  }
+ },
+ {
+  "id": "ws-trace-wave-fish",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-05",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "คลื่นน้ำพาปลา",
+   "en": "Wavy Fish"
+  },
+  "instruction": {
+   "th": "ลากเส้นเป็นคลื่น พาปลาไปหาดาว",
+   "en": "Trace the waves to the star."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ขยับมือเป็นคลื่นในอากาศก่อน"
+  ],
+  "words": [
+   {
+    "th": "คลื่น",
+    "en": "wave"
+   },
+   {
+    "th": "ปลา",
+    "en": "fish"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "trace",
+   "pattern": "wave",
+   "from": "fish",
+   "to": "star",
+   "rows": 3
+  }
+ },
+ {
+  "id": "ws-trace-zigzag-car",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-10",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "รถขึ้นเขา",
+   "en": "Zig-Zag Car"
+  },
+  "instruction": {
+   "th": "ลากเส้นซิกแซก พารถกลับบ้าน",
+   "en": "Trace the zig-zag road home."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "พูด “ขึ้น-ลง” ตามเส้น"
+  ],
+  "words": [
+   {
+    "th": "ขึ้น",
+    "en": "up"
+   },
+   {
+    "th": "ลง",
+    "en": "down"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "trace",
+   "pattern": "zigzag",
+   "from": "car",
+   "to": "house",
+   "rows": 3
+  }
+ },
+ {
+  "id": "ws-trace-loop-balloon",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-15",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 6,
+  "title": {
+   "th": "ลูกโป่งหมุนติ้ว",
+   "en": "Loopy Balloon"
+  },
+  "instruction": {
+   "th": "ลากเส้นวนเป็นห่วง พาลูกโป่งไปหาเมฆ",
+   "en": "Trace the loops to the cloud."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "หมุนตัวช้า ๆ ด้วยกันก่อนเริ่ม"
+  ],
+  "words": [
+   {
+    "th": "ลูกโป่ง",
+    "en": "balloon"
+   },
+   {
+    "th": "เมฆ",
+    "en": "cloud"
+   },
+   {
+    "th": "หมุน",
+    "en": "spin"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "trace",
+   "pattern": "loop",
+   "from": "balloon",
+   "to": "cloud",
+   "rows": 2
+  }
+ },
+ {
+  "id": "ws-trace-steps-ball",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-20",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "บอลกระโดดลงบันได",
+   "en": "Bouncy Steps"
+  },
+  "instruction": {
+   "th": "ลากเส้นตามบันได พาบอลไปหาเป็ด",
+   "en": "Trace the steps down to the duck."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "นับขั้นบันไดด้วยกัน"
+  ],
+  "words": [
+   {
+    "th": "กระโดด",
+    "en": "jump"
+   },
+   {
+    "th": "บันได",
+    "en": "steps"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "trace",
+   "pattern": "steps",
+   "from": "ball",
+   "to": "duck",
+   "rows": 3
+  }
+ },
+ {
+  "id": "ws-match-four",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-25",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "matching",
+  "minutes": 7,
+  "title": {
+   "th": "จับคู่สี่ภาพ",
+   "en": "Match Four"
+  },
+  "instruction": {
+   "th": "โยงเส้นจากภาพไปหาเงาที่เหมือนกัน",
+   "en": "Match each picture to its shadow."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "เริ่มจากภาพที่ลูกรู้จักที่สุด"
+  ],
+  "words": [
+   {
+    "th": "รถ",
+    "en": "car"
+   },
+   {
+    "th": "แมว",
+    "en": "cat"
+   },
+   {
+    "th": "กล้วย",
+    "en": "banana"
+   },
+   {
+    "th": "บ้าน",
+    "en": "house"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "match",
+   "items": [
+    "car",
+    "cat",
+    "banana",
+    "house"
+   ]
+  }
+ },
+ {
+  "id": "ws-match-two",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-28",
+  "age_bands": [
+   "1-2"
+  ],
+  "access_tier": "plus",
+  "skill": "matching",
+  "minutes": 3,
+  "title": {
+   "th": "จับคู่ง่าย ๆ",
+   "en": "Easy Match"
+  },
+  "instruction": {
+   "th": "ชี้หรือโยงเส้นหาเงาที่เหมือนกัน",
+   "en": "Point to the matching shadow."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "วัยนี้แค่ชี้ถูกก็เก่งมาก"
+  ],
+  "words": [
+   {
+    "th": "แอปเปิล",
+    "en": "apple"
+   },
+   {
+    "th": "ลูกบอล",
+    "en": "ball"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "match",
+   "items": [
+    "apple",
+    "ball"
+   ]
+  }
+ },
+ {
+  "id": "ws-count-apple",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-01",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "counting",
+  "minutes": 5,
+  "title": {
+   "th": "นับแอปเปิล",
+   "en": "Count the Apples"
+  },
+  "instruction": {
+   "th": "นับแอปเปิล แล้ววงกลมจุดที่เท่ากัน",
+   "en": "Count and circle the matching dots."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ใช้แอปเปิลจริงนับต่อหลังทำใบงาน"
+  ],
+  "words": [
+   {
+    "th": "แอปเปิล",
+    "en": "apple"
+   },
+   {
+    "th": "นับ",
+    "en": "count"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "count",
+   "picture": "apple",
+   "max": 3
+  }
+ },
+ {
+  "id": "ws-count-star",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-03",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "counting",
+  "minutes": 4,
+  "title": {
+   "th": "หนึ่ง สอง ดาว",
+   "en": "One, Two Stars"
+  },
+  "instruction": {
+   "th": "นับดาว 1 กับ 2",
+   "en": "Count one and two stars."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ชูนิ้วนับไปพร้อมกัน"
+  ],
+  "words": [
+   {
+    "th": "ดาว",
+    "en": "star"
+   },
+   {
+    "th": "หนึ่ง",
+    "en": "one"
+   },
+   {
+    "th": "สอง",
+    "en": "two"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "count",
+   "picture": "star",
+   "max": 2
+  }
+ },
+ {
+  "id": "ws-same-fish",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-05",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "matching",
+  "minutes": 4,
+  "title": {
+   "th": "ตัวไหนเหมือนกัน (ปลา)",
+   "en": "Find the Same Fish"
+  },
+  "instruction": {
+   "th": "วงกลมภาพที่เหมือนภาพแรก",
+   "en": "Circle the one that matches."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ถามว่า “อันไหนเป็นปลาเหมือนกัน?”"
+  ],
+  "words": [
+   {
+    "th": "เหมือน",
+    "en": "same"
+   },
+   {
+    "th": "ปลา",
+    "en": "fish"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "same",
+   "target": "fish",
+   "others": [
+    "cat",
+    "apple"
+   ]
+  }
+ },
+ {
+  "id": "ws-same-flower",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-08",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "matching",
+  "minutes": 4,
+  "title": {
+   "th": "ตัวไหนเหมือนกัน (ดอกไม้)",
+   "en": "Find the Same Flower"
+  },
+  "instruction": {
+   "th": "วงกลมภาพที่เหมือนภาพแรก",
+   "en": "Circle the one that matches."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ลองหาดอกไม้จริงนอกบ้านต่อ"
+  ],
+  "words": [
+   {
+    "th": "ดอกไม้",
+    "en": "flower"
+   },
+   {
+    "th": "เหมือน",
+    "en": "same"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "same",
+   "target": "flower",
+   "others": [
+    "sun",
+    "car"
+   ]
+  }
+ },
+ {
+  "id": "ws-size-tree",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-10",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "concepts",
+  "minutes": 4,
+  "title": {
+   "th": "ต้นไม้ใหญ่ ต้นไม้เล็ก",
+   "en": "Big Tree, Small Tree"
+  },
+  "instruction": {
+   "th": "วงกลมต้นไม้ที่เล็ก",
+   "en": "Circle the small tree."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ยืนตัวสูง = ต้นใหญ่ นั่งยอง = ต้นเล็ก"
+  ],
+  "words": [
+   {
+    "th": "ต้นไม้",
+    "en": "tree"
+   },
+   {
+    "th": "ใหญ่",
+    "en": "big"
+   },
+   {
+    "th": "เล็ก",
+    "en": "small"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "size",
+   "picture": "tree"
+  }
+ },
+ {
+  "id": "ws-path-duck-home",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-12",
+  "age_bands": [
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 5,
+  "title": {
+   "th": "เป็ดน้อยกลับบ้าน",
+   "en": "Duck Goes Home"
+  },
+  "instruction": {
+   "th": "ลากเส้นพาเป็ดกลับบ้าน",
+   "en": "Help the duck get home."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "เดินเตาะแตะแบบเป็ดด้วยกันหลังทำเสร็จ"
+  ],
+  "words": [
+   {
+    "th": "เป็ด",
+    "en": "duck"
+   },
+   {
+    "th": "บ้าน",
+    "en": "home"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนหรือดินสอสีแท่งใหญ่ จับแบบกำมือได้ ไม่ต้องจับให้ถูกท่าในวัยนี้"
+  ],
+  "template": {
+   "kind": "path",
+   "from": "duck",
+   "to": "house"
+  }
+ },
+ {
+  "id": "ws-color-moon",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-14",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "colors",
+  "minutes": 4,
+  "title": {
+   "th": "พระจันทร์ก่อนนอน",
+   "en": "Bedtime Moon"
+  },
+  "instruction": {
+   "th": "ระบายสีพระจันทร์ก่อนนอน",
+   "en": "Color the sleepy moon."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ทำก่อนนอน แล้วอ่านนิทาน “ลิโล่ราตรีสวัสดิ์” ต่อ"
+  ],
+  "words": [
+   {
+    "th": "พระจันทร์",
+    "en": "moon"
+   },
+   {
+    "th": "ราตรีสวัสดิ์",
+    "en": "good night"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "moon"
+  }
+ },
+ {
+  "id": "ws-color-tree",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-12-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "colors",
+  "minutes": 5,
+  "title": {
+   "th": "ต้นไม้ของฉัน",
+   "en": "My Tree"
+  },
+  "instruction": {
+   "th": "ระบายสีต้นไม้",
+   "en": "Color the tree."
+  },
+  "materials": [
+   "สีเทียน"
+  ],
+  "adult_tips": [
+   "ออกไปดูต้นไม้จริงด้วยกัน"
+  ],
+  "words": [
+   {
+    "th": "ต้นไม้",
+    "en": "tree"
+   },
+   {
+    "th": "สีเขียว",
+    "en": "green"
+   }
+  ],
+  "safety": [
+   "ใช้สีเทียนแท่งใหญ่แบบไม่เป็นพิษ และอยู่ดูแลตลอด — เด็กเล็กอาจเอาสีเข้าปาก"
+  ],
+  "template": {
+   "kind": "color",
+   "picture": "tree"
+  }
+ },
+ {
+  "id": "ws-dots-banana",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-12-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "skill": "fine_motor",
+  "minutes": 4,
+  "title": {
+   "th": "แต้มกล้วยหอม",
+   "en": "Dab the Banana"
+  },
+  "instruction": {
+   "th": "จุ่มนิ้วแต้มวงกลมบนกล้วย",
+   "en": "Dab the circles on the banana."
+  },
+  "materials": [
+   "สีนิ้วสีเหลือง"
+  ],
+  "adult_tips": [
+   "ปอกกล้วยจริงกินด้วยกันหลังเล่น"
+  ],
+  "words": [
+   {
+    "th": "กล้วย",
+    "en": "banana"
+   },
+   {
+    "th": "สีเหลือง",
+    "en": "yellow"
+   }
+  ],
+  "safety": [
+   "ใช้สีนิ้วสำหรับเด็ก (non-toxic) และล้างมือหลังเล่น — ไม่ใช้สติกเกอร์ชิ้นเล็กกับเด็กต่ำกว่า 3 ปี"
+  ],
+  "template": {
+   "kind": "dots",
+   "picture": "banana",
+   "count": 5
+  }
+ }
+]

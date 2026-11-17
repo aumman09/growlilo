@@ -60,3 +60,30 @@ export function chime(kind: "correct" | "try" | "done"): void {
     /* ignore */
   }
 }
+
+/** Speaks and resolves when finished (or after an estimate if speech is unavailable). */
+export function speakAsync(text: string, lang: "en-US" | "th-TH", rate = 0.9): { done: Promise<void>; cancel: () => void } {
+  let cancelled = false;
+  let timer: number | undefined;
+  const done = new Promise<void>((resolve) => {
+    const fallback = () => { timer = window.setTimeout(resolve, Math.max(1800, text.length * 90)); };
+    if (!canSpeak()) { fallback(); return; }
+    try {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = lang;
+      u.rate = rate;
+      const v = window.speechSynthesis.getVoices().find((x) => x.lang === lang) ?? window.speechSynthesis.getVoices().find((x) => x.lang.startsWith(lang.slice(0, 2)));
+      if (v) u.voice = v;
+      u.onend = () => resolve();
+      u.onerror = () => resolve();
+      window.speechSynthesis.speak(u);
+      // Safety net: some engines never fire onend.
+      timer = window.setTimeout(resolve, Math.max(6000, text.length * 160));
+    } catch { fallback(); }
+  });
+  return {
+    done: done.then(() => { if (timer) window.clearTimeout(timer); if (cancelled) throw new Error("cancelled"); }),
+    cancel: () => { cancelled = true; if (timer) window.clearTimeout(timer); stopSpeaking(); },
+  };
+}

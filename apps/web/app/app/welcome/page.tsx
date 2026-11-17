@@ -14,7 +14,7 @@ import { Grow, Lilo, LogoMark } from "@/components/brand/Mascots";
 const AGE_OPTIONS: Array<{ v: AgeBand; label: string; note: string; enabled: boolean }> = [
   { v: "4-5", label: "4–5 ปี", note: "ฟัง ดูภาพ แตะตอบ", enabled: true },
   { v: "6-8", label: "6–8 ปี", note: "คำศัพท์ ประโยคสั้น", enabled: true },
-  { v: "2-3", label: "2–3 ปี", note: "แนะนำกิจกรรมนอกจอกับผู้ใหญ่ — ยังไม่เปิดโหมดเกม", enabled: false },
+  { v: "2-3", label: "2–3 ปี", note: "ยังไม่เปิดโหมดเกม — ใช้ห้องสมุดใบงานและนิทานแทน", enabled: false },
   { v: "9-12", label: "9–12 ปี", note: "อยู่ในแผนพัฒนา", enabled: false },
 ];
 
@@ -95,6 +95,7 @@ export default function Welcome() {
               </button>
             ))}
           </div>
+          <p className="hint">ลูกอายุ 1–3 ปี? <Link href="/app/library/">ไปห้องสมุดใบงานพิมพ์ได้และนิทานสองภาษา</Link> — ไม่ต้องสร้างโปรไฟล์</p>
           <div className="onb__nav">
             <span />
             <button className="btn btn--lg" disabled={!age || atLimit} onClick={() => setStep(2)}>ถัดไป</button>

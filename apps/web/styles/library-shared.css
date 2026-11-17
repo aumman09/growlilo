@@ -1,0 +1,45 @@
+/* Shared by marketing preview + app: printable sheet and story scenes */
+/* ---------- printable sheet (A4) ---------- */
+.sheet { container-type: inline-size; width: 100%; max-width: 794px; aspect-ratio: 210 / 297; margin: 0 auto 24px; background: #fff; color: #26382F; border-radius: 12px; box-shadow: var(--shadow-md); padding: 4.5cqw 5cqw; display: grid; grid-template-rows: auto auto 1fr auto; gap: 1.6cqw; overflow: hidden; }
+.sheet__head { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 3cqw; border-bottom: 0.4cqw dashed #ECE3D0; padding-bottom: 2cqw; }
+.sheet__brand { display: flex; align-items: center; gap: 1cqw; font-family: var(--font-display); font-weight: 800; font-size: 2.6cqw; color: #234B37; }
+.sheet__brand svg { width: 4.4cqw; height: 4.4cqw; }
+.sheet__titles h2 { font-size: 5cqw; line-height: 1.15; }
+.sheet__titles p { font-family: var(--font-display); font-weight: 700; font-size: 2.6cqw; color: #69786E; }
+.sheet__age { font-size: 2.2cqw; font-weight: 700; background: #FDE8D6; color: #A8521A; padding: 0.8cqw 2cqw; border-radius: 99px; white-space: nowrap; }
+.sheet__inst { font-size: 3cqw; font-weight: 700; color: #234B37; }
+.sheet__inst span { font-weight: 500; color: #69786E; font-size: 2.4cqw; }
+.sheet__body { width: 100%; height: 100%; min-height: 0; }
+.sheet__foot { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8cqw 3cqw; font-size: 1.9cqw; line-height: 1.45; border-top: 0.4cqw dashed #ECE3D0; padding-top: 1.6cqw; }
+.sheet__foot b { color: #234B37; }
+.sheet__foot small { grid-column: 1 / -1; color: #9AA59E; font-size: 1.6cqw; }
+
+@media print {
+  @page { size: A4 portrait; margin: 0; }
+  html, body { background: #fff !important; }
+  body * { visibility: hidden; }
+  .print-area, .print-area * { visibility: visible; }
+  .print-area { position: absolute; left: 0; top: 0; width: 210mm; }
+  .no-print, .offline-chip, .pbar { display: none !important; }
+  .sheet { width: 210mm; max-width: none; height: 297mm; aspect-ratio: auto; margin: 0; border-radius: 0; box-shadow: none; page-break-after: always; break-after: page; }
+  .sheet:last-child { page-break-after: auto; break-after: auto; }
+}
+
+
+.scene { position: relative; height: 240px; border-radius: 28px; overflow: hidden; display: flex; align-items: flex-end; justify-content: center; }
+.scene__deco { position: absolute; inset: 0; pointer-events: none; }
+.scene__cast { position: relative; display: flex; align-items: flex-end; gap: 4px; padding-bottom: 10px; }
+.scene__grow { margin-right: -18px; }
+.scene__item { align-self: center; margin-left: 6px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.12)); }
+.scene--day { background: linear-gradient(180deg, #CBE9FA 0%, #E9F6FD 60%, #DCEFCF 60%, #C6E3B4 100%); }
+.scene--day .scene__deco { background: radial-gradient(circle at 85% 18%, #FFE08A 0 26px, rgba(255,224,138,.35) 27px 42px, transparent 43px); }
+.scene--night { background: linear-gradient(180deg, #1E2F52 0%, #34477A 62%, #2B3A5E 62%, #22304D 100%); }
+.scene--night .scene__deco { background: radial-gradient(circle at 82% 20%, #FFF3C4 0 22px, transparent 23px), radial-gradient(circle at 15% 22%, #fff 0 2px, transparent 3px), radial-gradient(circle at 30% 12%, #fff 0 1.5px, transparent 2.5px), radial-gradient(circle at 55% 28%, #fff 0 2px, transparent 3px), radial-gradient(circle at 68% 10%, #fff 0 1.5px, transparent 2.5px); }
+.scene--garden { background: linear-gradient(180deg, #E2F2FB 0%, #F3FAF0 55%, #A9D68F 55%, #8CC570 100%); }
+.scene--garden .scene__deco { background: radial-gradient(ellipse at 12% 56%, #7CB66B 0 30px, transparent 31px), radial-gradient(ellipse at 90% 56%, #7CB66B 0 36px, transparent 37px); }
+.scene--rain { background: linear-gradient(180deg, #A9B7C6 0%, #D4DEE8 60%, #B9CFC0 60%, #A2BEA9 100%); }
+.scene--rain .scene__deco { background-image: repeating-linear-gradient(105deg, transparent 0 18px, rgba(255,255,255,.55) 18px 20px, transparent 20px 40px); }
+.scene--home { background: linear-gradient(180deg, #FFF3E2 0%, #FDE8D6 64%, #E8C9A6 64%, #DDB991 100%); }
+.scene--home .scene__deco { background: linear-gradient(#CFE9F8, #CFE9F8) 78% 20% / 70px 60px no-repeat; border-radius: 0; }
+.scene--sea { background: linear-gradient(180deg, #BFE6F7 0%, #7EC4E6 45%, #4F9FCB 100%); }
+.scene--sea .scene__deco { background: repeating-radial-gradient(circle at 20% 80%, rgba(255,255,255,.35) 0 4px, transparent 5px 40px); }

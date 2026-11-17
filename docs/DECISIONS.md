@@ -18,3 +18,9 @@
 | D14 | 2026-11-15 | Reflection after a mission uses tap-chips (no free text) | Data minimisation | — |
 | D15 | 2026-11-16 | Family Plus planned price changed to **59 THB/month**; annual set to **590 THB/year** (= 10 months, ~2 months free) | Owner decision (monthly); annual derived so it stays cheaper than 12 × 59 = 708 | Validate with real checkout tests |
 | D16 | 2026-11-16 | Public contact email = owner's address (footer + /contact) | Owner request; replaces placeholder | Switch to domain email after launch |
+| D17 | 2026-11-17 | New **Family Library for ages 1–3**: printable worksheets + bilingual stories, adult-led (behind parent gate), no child profile required | Owner request; fits PRD offline-first guidance for under-3s (no solo screen) | Educator review |
+| D18 | 2026-11-17 | Worksheets are rendered from JSON templates into A4 SVG and printed via the browser (Print / Save as PDF) — no PDF library | One source for screen + print; offline-capable; editable without design tools | Server PDF later if needed |
+| D19 | 2026-11-17 | Story narration uses device TTS (th-TH / en-US) until licensed recordings exist; `audio` field ready | Owner chose TTS-first | Replace story by story |
+| D20 | 2026-11-17 | Free: items tagged free (8 worksheets, 4 stories). Plus: full library, weekly 5-sheet set, bedtime playlist, monthly drops. **Sleep timer, listen-only (dark screen) and printing stay free** | Owner chose proposed split; PRD §8.1 never paywall time limits | Validate with families |
+| D21 | 2026-11-17 | ALPHA-only "ทดลองดู Family Plus (Demo)" local switch to preview Plus features | No payment system yet; clearly labelled, not an entitlement; trivially client-side | **Remove** when server entitlements ship (Phase 3) |
+| D22 | 2026-11-17 | Monthly updates via `published_at` scheduling in JSON | Lets owner load future drops; no CMS yet | Phase 2 CMS |

@@ -129,6 +129,11 @@ function Dashboard({ profile }: { profile: ChildProfile }) {
           </Link>
         </article>
 
+        <Link href="/app/library/" className="pcard lib-entry" data-testid="library-entry">
+          <span aria-hidden><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#357553" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z" /><path d="M8 7h7M8 11h5" /></svg></span>
+          <span><b>ห้องสมุดครอบครัว (วัย 1–3 ปี)</b><span className="muted small">ใบงานพิมพ์ได้ + นิทานไทย/อังกฤษ พร้อมเสียงอ่าน</span></span>
+        </Link>
+
         <article className="pcard" aria-labelledby="skills-h">
           <h2 id="skills-h">ทักษะที่ได้ฝึก</h2>
           {week.skills.length === 0 ? <p className="empty">จะแสดงหลังลูกเล่นเกมแรก</p> : (

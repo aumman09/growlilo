@@ -2,7 +2,7 @@
 
 Legend: ✅ pass (automated test or verified) · 🟡 partial · ❌ not started (later phase) · 🔍 needs human/real-device check
 
-Evidence: `pnpm test` (105 unit), `pnpm e2e` (14 scenarios × mobile-360 + desktop-1440 = 28 runs, all green), screenshots in `docs/screenshots/`.
+Evidence: `pnpm test` (unit), `pnpm e2e` (21 scenarios × mobile-360 + desktop-1440 = 42 runs, all green), screenshots in `docs/screenshots/`.
 
 ## PRD §15 — Marketing
 | Criterion | Status | Evidence / note |
@@ -57,6 +57,17 @@ All ❌ by design for Phase 1 (PRD §14: “No production subscription yet”). 
 | 13 | Forged/duplicate webhooks | ❌ Phase 3 |
 | 14 | Export / delete | ✅ (local scope) |
 | 15 | Editor rejects unreviewed publish | ❌ Phase 2 CMS (content loader already rejects invalid/ambiguous items) |
+
+## Family Library (ages 1–3) — added 2026-11-17
+| Criterion | Status | Evidence / note |
+|---|---|---|
+| Library of printable worksheets (≥24) and bilingual stories (≥12) | ✅ | 26 + 12 live, plus scheduled Dec drop; validators in unit tests |
+| Updatable without code changes | ✅ | JSON + `published_at` scheduling; `docs/CONTENT_GUIDE.md` |
+| Print / Save as PDF on A4 | ✅ / 🔍 | print-media e2e test; **check on a real printer + iOS Safari share-to-PDF** |
+| TH + EN narration | 🟡 | device TTS; Thai voice availability varies by device — licensed recordings pending |
+| Free vs Plus split; time limits never paywalled | ✅ | unit + e2e; Plus currently via labelled demo switch only |
+| Weekly set + bedtime playlist (finite, stops) | ✅ | e2e |
+| Content reviewed by early-years educators | ❌ | required before public launch |
 
 ## Known issues / honest gaps
 1. **No HTTPS deploy preview yet** — needs a hosting account (Vercel/Netlify). Everything is ready for it.

@@ -1,0 +1,1222 @@
+[
+ {
+  "id": "story-lilo-goodnight",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "theme": "bedtime",
+  "minutes": 3,
+  "title": {
+   "th": "ลิโล่ราตรีสวัสดิ์",
+   "en": "Goodnight, Lilo"
+  },
+  "pages": [
+   {
+    "th": "ฟ้ามืดแล้ว ลิโล่หาวหวอด",
+    "en": "The sky is dark. Lilo yawns.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "“ราตรีสวัสดิ์นะ ลูกบอล”",
+    "en": "“Goodnight, ball.”",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "ball"
+    }
+   },
+   {
+    "th": "“ราตรีสวัสดิ์นะ เป็ดน้อย”",
+    "en": "“Goodnight, little duck.”",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "duck"
+    }
+   },
+   {
+    "th": "“ราตรีสวัสดิ์นะ ดาวดวงน้อย”",
+    "en": "“Goodnight, little star.”",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "“ราตรีสวัสดิ์นะ พระจันทร์”",
+    "en": "“Goodnight, moon.”",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "moon"
+    }
+   },
+   {
+    "th": "กรุ๊วกอดลิโล่แน่น ๆ “ราตรีสวัสดิ์นะ ลูกรัก”",
+    "en": "Grow gives Lilo a big hug. “Goodnight, my love.”",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ลิโล่หลับตา… ฝันดีนะ",
+    "en": "Lilo closes both eyes… Sweet dreams.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "หนูอยากบอกราตรีสวัสดิ์กับอะไรบ้าง?",
+    "en": "What do you want to say goodnight to?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-red-balloon",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "theme": "colors",
+  "minutes": 3,
+  "title": {
+   "th": "ลูกโป่งสีแดงของลิโล่",
+   "en": "Lilo's Red Balloon"
+  },
+  "pages": [
+   {
+    "th": "ลิโล่มีลูกโป่งสีแดง",
+    "en": "Lilo has a red balloon.",
+    "scene": {
+     "bg": "day",
+     "cast": [
+      "lilo"
+     ],
+     "item": "balloon"
+    }
+   },
+   {
+    "th": "ลมพัดฟิ้ว… ลูกโป่งลอยขึ้นไป!",
+    "en": "Whoosh! The wind blows. Up goes the balloon!",
+    "scene": {
+     "bg": "day",
+     "cast": [
+      "lilo"
+     ],
+     "item": "balloon"
+    }
+   },
+   {
+    "th": "ลอยผ่านต้นไม้สีเขียว",
+    "en": "It floats past a green tree.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "tree"
+    }
+   },
+   {
+    "th": "ลอยผ่านดวงอาทิตย์สีเหลือง",
+    "en": "It floats past the yellow sun.",
+    "scene": {
+     "bg": "day",
+     "cast": [
+      "lilo"
+     ],
+     "item": "sun"
+    }
+   },
+   {
+    "th": "ลูกโป่งไปติดกิ่งไม้ “ช่วยด้วย!”",
+    "en": "The balloon gets stuck. “Help!”",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "tree"
+    }
+   },
+   {
+    "th": "กรุ๊วเอื้อมมือสูง ๆ หยิบลงมาให้",
+    "en": "Grow reaches up high and gets it.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "balloon"
+    }
+   },
+   {
+    "th": "“ขอบคุณนะ!” ลิโล่ยิ้มกว้าง",
+    "en": "“Thank you!” Lilo smiles.",
+    "scene": {
+     "bg": "day",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "balloon"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ลูกโป่งสีอะไรนะ?",
+    "en": "What color is the balloon?"
+   },
+   {
+    "th": "ในบ้านเรามีอะไรสีแดงบ้าง?",
+    "en": "What is red in our house?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-bath-time",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "theme": "routine",
+  "minutes": 3,
+  "title": {
+   "th": "อาบน้ำสนุกจัง",
+   "en": "Splash! Bath Time"
+  },
+  "pages": [
+   {
+    "th": "ลิโล่เล่นดินมา ตัวเลอะไปหมด",
+    "en": "Lilo played in the mud. So messy!",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ถึงเวลาอาบน้ำแล้ว",
+    "en": "It's bath time.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "น้ำอุ่น ๆ สาดซ่า ๆ",
+    "en": "Warm water. Splash, splash!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "duck"
+    }
+   },
+   {
+    "th": "ถูสบู่ที่แขน ถูสบู่ที่ขา",
+    "en": "Soap on my arms. Soap on my legs.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "เป็ดยางว่ายตามมา ก๊าบ ก๊าบ",
+    "en": "Rubber duck swims along. Quack, quack!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "duck"
+    }
+   },
+   {
+    "th": "เช็ดตัวให้แห้ง หอมฟุ้งเลย",
+    "en": "Dry with a towel. Mmm, so clean!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "อาบน้ำแล้วเราถูสบู่ตรงไหนบ้าง?",
+    "en": "Where do we put soap?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-big-hug",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "free",
+  "theme": "feelings",
+  "minutes": 3,
+  "title": {
+   "th": "กอดใหญ่ ๆ",
+   "en": "A Big Hug"
+  },
+  "pages": [
+   {
+    "th": "ตึกบล็อกของลิโล่ล้มลง ลิโล่ร้องไห้",
+    "en": "Lilo's tower falls down. Lilo cries.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "“หนูเสียใจ” ลิโล่บอก",
+    "en": "“I feel sad,” says Lilo.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "กรุ๊วนั่งลงข้าง ๆ “อยู่ตรงนี้แล้วนะ”",
+    "en": "Grow sits down. “I'm right here.”",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "หายใจเข้าช้า ๆ… หายใจออกช้า ๆ",
+    "en": "Breathe in slowly… breathe out slowly.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "กอดใหญ่ ๆ หนึ่งที อุ่นจังเลย",
+    "en": "One big hug. So warm.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "heart"
+    }
+   },
+   {
+    "th": "“มาสร้างใหม่ด้วยกันไหม?” ลิโล่ยิ้มได้แล้ว",
+    "en": "“Let's build it again together?” Lilo smiles.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ถ้าหนูเสียใจ หนูอยากให้ทำอะไร?",
+    "en": "When you feel sad, what helps you?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-rainy-day",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-15",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "nature",
+  "minutes": 3,
+  "title": {
+   "th": "วันฝนตก",
+   "en": "Pitter-Patter Rain"
+  },
+  "pages": [
+   {
+    "th": "เมฆสีเทาลอยมา",
+    "en": "Gray clouds come.",
+    "scene": {
+     "bg": "rain",
+     "cast": [
+      "lilo"
+     ],
+     "item": "cloud"
+    }
+   },
+   {
+    "th": "ติ๋ง… ติ๋ง… ฝนเริ่มตก",
+    "en": "Pitter… patter… the rain begins.",
+    "scene": {
+     "bg": "rain",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ลิโล่ใส่รองเท้าบูทสีเหลือง",
+    "en": "Lilo puts on yellow boots.",
+    "scene": {
+     "bg": "rain",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "กระโดดลงแอ่งน้ำ จ๋อม!",
+    "en": "Jump in the puddle. Splash!",
+    "scene": {
+     "bg": "rain",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ต้นไม้ดื่มน้ำ ดอกไม้ก็ดื่มน้ำ",
+    "en": "The trees drink. The flowers drink.",
+    "scene": {
+     "bg": "rain",
+     "cast": [
+      "lilo"
+     ],
+     "item": "flower"
+    }
+   },
+   {
+    "th": "ฝนหยุดแล้ว ดวงอาทิตย์โผล่มาทักทาย",
+    "en": "The rain stops. Hello, sun!",
+    "scene": {
+     "bg": "day",
+     "cast": [
+      "lilo"
+     ],
+     "item": "sun"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ฝนตกเสียงเป็นอย่างไร?",
+    "en": "What sound does the rain make?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-where-is-duck",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-09-25",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "animals",
+  "minutes": 3,
+  "title": {
+   "th": "เป็ดน้อยอยู่ไหนนะ",
+   "en": "Where Is Little Duck?"
+  },
+  "pages": [
+   {
+    "th": "เป็ดน้อยเล่นซ่อนหา",
+    "en": "Little Duck plays hide-and-seek.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "duck"
+    }
+   },
+   {
+    "th": "อยู่หลังต้นไม้หรือเปล่า? ไม่ใช่!",
+    "en": "Behind the tree? No!",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "tree"
+    }
+   },
+   {
+    "th": "อยู่ใต้ดอกไม้หรือเปล่า? ไม่ใช่!",
+    "en": "Under the flower? No!",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "flower"
+    }
+   },
+   {
+    "th": "อยู่ในบ้านหรือเปล่า? ไม่ใช่!",
+    "en": "In the house? No!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "house"
+    }
+   },
+   {
+    "th": "ได้ยินเสียง ก๊าบ ก๊าบ…",
+    "en": "I hear… quack, quack…",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "เจอแล้ว! เป็ดน้อยอยู่ในน้ำนี่เอง",
+    "en": "Found you! Little Duck is in the water.",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ],
+     "item": "duck"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ถ้าเล่นซ่อนหา หนูจะซ่อนตรงไหน?",
+    "en": "Where would you hide?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-counting-stars",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-05",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "bedtime",
+  "minutes": 3,
+  "title": {
+   "th": "นับดาวกันเถอะ",
+   "en": "Let's Count the Stars"
+  },
+  "pages": [
+   {
+    "th": "คืนนี้ฟ้าใสแจ๋ว",
+    "en": "The night sky is clear.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ดาวหนึ่งดวง ระยิบระยับ",
+    "en": "One star, twinkle, twinkle.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "ดาวสองดวง กะพริบตา",
+    "en": "Two stars, blink, blink.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "ดาวสามดวง ยิ้มให้ลิโล่",
+    "en": "Three stars smile at Lilo.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "กรุ๊วกระซิบ “ดาวก็ง่วงแล้วนะ”",
+    "en": "Grow whispers, “The stars are sleepy too.”",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "moon"
+    }
+   },
+   {
+    "th": "หนึ่ง… สอง… สาม… หลับปุ๋ย",
+    "en": "One… two… three… fast asleep.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "เรานับดาวได้กี่ดวง?",
+    "en": "How many stars did we count?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-sharing-ball",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-15",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "kindness",
+  "minutes": 3,
+  "title": {
+   "th": "แบ่งกันเล่น",
+   "en": "Let's Share"
+  },
+  "pages": [
+   {
+    "th": "ลิโล่มีลูกบอลลูกใหม่",
+    "en": "Lilo has a new ball.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "ball"
+    }
+   },
+   {
+    "th": "แมวเหมียวมองตาปริบ ๆ อยากเล่นด้วย",
+    "en": "Kitty looks. Kitty wants to play.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "cat"
+    }
+   },
+   {
+    "th": "“ของหนู!” ลิโล่กอดบอลไว้",
+    "en": "“Mine!” Lilo hugs the ball.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "ball"
+    }
+   },
+   {
+    "th": "แมวเหมียวเศร้า หูตก",
+    "en": "Kitty feels sad.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "cat"
+    }
+   },
+   {
+    "th": "ลิโล่คิด… แล้วกลิ้งบอลไปให้ “เล่นด้วยกันไหม?”",
+    "en": "Lilo thinks… then rolls the ball. “Play with me?”",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "ball"
+    }
+   },
+   {
+    "th": "กลิ้งไป กลิ้งมา สนุกกว่าเดิมอีก!",
+    "en": "Roll to you, roll to me. More fun together!",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "cat"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "วันนี้หนูแบ่งอะไรให้ใครได้บ้าง?",
+    "en": "What can you share today?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-little-sprout",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-10-25",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "nature",
+  "minutes": 3,
+  "title": {
+   "th": "ต้นกล้าเล็ก ๆ",
+   "en": "The Little Sprout"
+  },
+  "pages": [
+   {
+    "th": "ลิโล่ปลูกเมล็ดเล็ก ๆ ลงดิน",
+    "en": "Lilo plants a tiny seed.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "รดน้ำทุกเช้า ซู่ ซู่",
+    "en": "Water every morning. Shh, shh.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "แดดอุ่น ๆ ส่องลงมา",
+    "en": "The warm sun shines.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "sun"
+    }
+   },
+   {
+    "th": "วันหนึ่ง… มีใบเล็ก ๆ โผล่ขึ้นมา!",
+    "en": "One day… a tiny leaf pops up!",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ใบเล็ก ๆ ค่อย ๆ โตขึ้น โตขึ้น",
+    "en": "It grows and grows.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "lilo"
+     ],
+     "item": "flower"
+    }
+   },
+   {
+    "th": "เหมือนหนูที่โตขึ้นทุกวันเลย",
+    "en": "Just like you, growing every day.",
+    "scene": {
+     "bg": "garden",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "tree"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ต้นไม้ต้องการอะไรบ้างถึงจะโต?",
+    "en": "What does a plant need to grow?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-little-fish",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "animals",
+  "minutes": 3,
+  "title": {
+   "th": "ปลาน้อยในทะเล",
+   "en": "Little Fish in the Sea"
+  },
+  "pages": [
+   {
+    "th": "ปลาน้อยว่ายน้ำในทะเลสีฟ้า",
+    "en": "Little Fish swims in the blue sea.",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ],
+     "item": "fish"
+    }
+   },
+   {
+    "th": "ว่ายขึ้น… ว่ายลง…",
+    "en": "Swim up… swim down…",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ],
+     "item": "fish"
+    }
+   },
+   {
+    "th": "เจอดาวทะเล “สวัสดีจ้ะ”",
+    "en": "Hello, starfish!",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "ฟองน้ำผุดขึ้นมา ปุ๊ด ปุ๊ด",
+    "en": "Bubbles pop. Blub, blub.",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ปลาน้อยเหนื่อยแล้ว ว่ายกลับบ้าน",
+    "en": "Little Fish is tired. Time to swim home.",
+    "scene": {
+     "bg": "sea",
+     "cast": [
+      "lilo"
+     ],
+     "item": "fish"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ปลาว่ายน้ำอย่างไร ลองทำมือให้ดูหน่อย",
+    "en": "Show me how a fish swims."
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-yummy-banana",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-08",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "routine",
+  "minutes": 3,
+  "title": {
+   "th": "กล้วยหอมแสนอร่อย",
+   "en": "Yummy Banana"
+  },
+  "pages": [
+   {
+    "th": "ท้องร้อง จ๊อก จ๊อก ลิโล่หิวแล้ว",
+    "en": "Rumble, rumble. Lilo is hungry.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "กรุ๊วหยิบกล้วยหอมสีเหลืองมา",
+    "en": "Grow brings a yellow banana.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "banana"
+    }
+   },
+   {
+    "th": "ล้างมือก่อนนะ ซ่า ซ่า",
+    "en": "Wash hands first. Swish, swish.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ปอกเปลือก… ทีละนิด",
+    "en": "Peel it… bit by bit.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "banana"
+    }
+   },
+   {
+    "th": "งั่ม งั่ม อร่อยจัง!",
+    "en": "Yum, yum. So good!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "banana"
+    }
+   },
+   {
+    "th": "“ขอบคุณสำหรับอาหารนะ”",
+    "en": "“Thank you for the food.”",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "หนูชอบผลไม้อะไรที่สุด?",
+    "en": "What fruit do you like best?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-tidy-up",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-11-12",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "routine",
+  "minutes": 3,
+  "title": {
+   "th": "เก็บของเล่นกันเถอะ",
+   "en": "Tidy-Up Time"
+  },
+  "pages": [
+   {
+    "th": "ของเล่นกระจายเต็มห้องเลย",
+    "en": "Toys everywhere!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "ball"
+    }
+   },
+   {
+    "th": "รถไปจอดในกล่อง บรื้น บรื้น",
+    "en": "The car goes in the box. Vroom!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "car"
+    }
+   },
+   {
+    "th": "ลูกบอลกลิ้งเข้าตะกร้า ตุบ!",
+    "en": "The ball rolls in the basket. Bump!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "ball"
+    }
+   },
+   {
+    "th": "เป็ดยางกลับไปนอนที่ชั้น",
+    "en": "The duck goes to the shelf.",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "lilo"
+     ],
+     "item": "duck"
+    }
+   },
+   {
+    "th": "ห้องสะอาดแล้ว เย้!",
+    "en": "All clean. Hooray!",
+    "scene": {
+     "bg": "home",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "star"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "ของเล่นชิ้นไหนที่หนูเก็บเองได้?",
+    "en": "Which toy can you put away?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ },
+ {
+  "id": "story-little-lights",
+  "version": 1,
+  "status": "published",
+  "published_at": "2026-12-01",
+  "age_bands": [
+   "1-2",
+   "2-3"
+  ],
+  "access_tier": "plus",
+  "theme": "bedtime",
+  "minutes": 3,
+  "title": {
+   "th": "ไฟดวงน้อย",
+   "en": "Little Lights"
+  },
+  "pages": [
+   {
+    "th": "คืนนี้มีไฟดวงน้อยเต็มบ้าน",
+    "en": "Little lights shine in our home.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "star"
+    }
+   },
+   {
+    "th": "ไฟสีแดง ไฟสีเหลือง ไฟสีเขียว",
+    "en": "Red lights, yellow lights, green lights.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ]
+    }
+   },
+   {
+    "th": "ครอบครัวนั่งด้วยกัน อุ่นใจจัง",
+    "en": "Our family sits together. So cozy.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "grow",
+      "lilo"
+     ],
+     "item": "heart"
+    }
+   },
+   {
+    "th": "ราตรีสวัสดิ์นะ ไฟดวงน้อย",
+    "en": "Goodnight, little lights.",
+    "scene": {
+     "bg": "night",
+     "cast": [
+      "lilo"
+     ],
+     "item": "moon"
+    }
+   }
+  ],
+  "questions": [
+   {
+    "th": "หนูชอบไฟสีอะไร?",
+    "en": "What color light do you like?"
+   }
+  ],
+  "audio": {
+   "th": null,
+   "en": null
+  },
+  "author": "Growlilo original (2026) — draft, pending educator review"
+ }
+]

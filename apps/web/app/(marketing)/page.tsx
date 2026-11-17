@@ -7,6 +7,9 @@ import { EnglishSpotlight } from "@/components/marketing/EnglishSpotlight";
 import { Grow, Lilo } from "@/components/brand/Mascots";
 import { Toy } from "@/components/brand/Toys";
 import { SITE_NAME, SITE_URL, DESCRIPTION_TH } from "@/lib/site";
+import { WorksheetSheet } from "@/components/library/WorksheetSheet";
+import { Scene } from "@/components/library/Scene";
+import { ALL_STORIES, ALL_WORKSHEETS, getStory, getWorksheet } from "@/lib/content";
 
 function SectionHead({ kicker, title, sub, id }: { kicker: string; title: React.ReactNode; sub?: string; id: string }) {
   return (
@@ -192,6 +195,35 @@ export default function Home() {
             ))}
           </div>
           <div className="center" data-reveal><a className="btn btn--ghost" href="#planner">รับไอเดียกิจกรรม</a></div>
+        </div>
+      </section>
+
+      {/* 09b — Little ones library (ages 1–3) */}
+      <section id="little" className="section little" aria-labelledby="little-title">
+        <div className="container little__grid">
+          <div className="little__copy" data-reveal>
+            <p className="kicker">สำหรับวัย 1–3 ปี</p>
+            <h2 id="little-title">ใบงานพิมพ์ได้<br />และนิทานสองภาษา</h2>
+            <p>วัยเล็กควรเล่นนอกจอกับผู้ใหญ่ Growlilo จึงทำคลังที่ “ใช้จอให้น้อยที่สุด” — พิมพ์ใบงานไปทำบนโต๊ะ อ่านนิทานให้ลูกฟัง หรือเปิดเสียงอ่านแล้วพักหน้าจอไว้</p>
+            <ul className="ticks">
+              <li>ใบงาน {ALL_WORKSHEETS.length - 2}+ แผ่น: จุ่มนิ้วแต้มสี ลากเส้น จับคู่เงา นับ 1–3 ใหญ่-เล็ก</li>
+              <li>นิทานต้นฉบับ {ALL_STORIES.length - 1}+ เรื่อง อ่านได้ทั้งไทยและอังกฤษ พร้อมเสียงอ่าน</li>
+              <li>โหมดฟังอย่างเดียว (จอมืด) และตั้งเวลาปิดเสียง ใช้ได้ฟรี</li>
+              <li>มีใบงานและนิทานใหม่ทุกเดือน</li>
+            </ul>
+            <div className="little__ctas">
+              <Link className="btn btn--lg" href="/app/library/">เปิดห้องสมุดฟรี</Link>
+              <a className="btn btn--lg btn--ghost" href="#pricing">ดูว่า Plus มีอะไรเพิ่ม</a>
+            </div>
+          </div>
+          <div className="little__art" data-reveal data-delay="1">
+            <div className="little__sheet" aria-hidden><WorksheetSheet ws={getWorksheet("ws-trace-car-home")!} /></div>
+            <div className="little__story" aria-hidden>
+              <Scene scene={getStory("story-lilo-goodnight")!.pages[5].scene} />
+              <p className="little__th">กรุ๊วกอดลิโล่แน่น ๆ “ราตรีสวัสดิ์นะ ลูกรัก”</p>
+              <p className="little__en" lang="en">Grow gives Lilo a big hug. “Goodnight, my love.”</p>
+            </div>
+          </div>
         </div>
       </section>
 

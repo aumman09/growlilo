@@ -5,3 +5,4 @@ export * from "./match-engine";
 export * from "./progress";
 export * from "./plan";
 export * from "./gate";
+export * from "./library";

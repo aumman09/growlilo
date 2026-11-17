@@ -1,3 +1,6 @@
+import worksheetsJson from "@content/worksheets.json";
+import storiesJson from "@content/stories.json";
+import { validateStory, validateWorksheet, type Story, type Worksheet } from "@growlilo/game-core";
 import lessonsJson from "@content/lessons.json";
 import missionsJson from "@content/missions.json";
 import plansJson from "@content/plans.json";
@@ -38,3 +41,18 @@ export const SKILL_NAMES: Record<string, string> = {
 };
 
 export const SUBJECT_TH: Record<string, string> = { english: "ภาษาอังกฤษ", thai: "ภาษาไทย", math: "คณิตศาสตร์", life: "ทักษะชีวิต" };
+
+// ---------- Family Library (ages 1–3) ----------
+
+/** All validated items incl. scheduled ones (pages decide visibility by date on the client). */
+export const ALL_WORKSHEETS: Worksheet[] = (worksheetsJson as unknown as Worksheet[]).map(validateWorksheet).filter((w) => w.status === "published");
+export const ALL_STORIES: Story[] = (storiesJson as unknown as Story[]).map(validateStory).filter((s) => s.status === "published");
+export const getWorksheet = (id: string) => ALL_WORKSHEETS.find((w) => w.id === id);
+export const getStory = (id: string) => ALL_STORIES.find((s) => s.id === id);
+
+export const SKILL_TH: Record<string, string> = {
+  fine_motor: "กล้ามเนื้อมือ", colors: "สีและการระบาย", matching: "จับคู่", counting: "นับจำนวน", concepts: "ใหญ่-เล็ก",
+};
+export const THEME_TH: Record<string, string> = {
+  bedtime: "ก่อนนอน", colors: "สี", routine: "กิจวัตร", feelings: "ความรู้สึก", nature: "ธรรมชาติ", animals: "สัตว์", kindness: "น้ำใจ",
+};
